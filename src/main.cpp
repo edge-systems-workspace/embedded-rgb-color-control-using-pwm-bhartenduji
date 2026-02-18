@@ -27,3 +27,17 @@ void setup() {
   pinMode(green_led, OUTPUT);
   pinMode(blue_led, OUTPUT);
 }
+
+/**
+ * @brief Main loop to cycle RGB colors.
+ * 
+ * This function continuously runs and changes the LED colors
+ * every 1 second using digitalWrite() and delay().
+ */
+void loop() {
+
+  /// Display Red
+  digitalWrite(red_led, HIGH);
+  digitalWrite(green_led, LOW);
+  digitalWrite(blue_led, LOW);
+  delay(1000);

@@ -76,5 +76,5 @@ void loop() {
   digitalWrite(red_led, HIGH);
   digitalWrite(green_led, HIGH);
   digitalWrite(blue_led, HIGH);
-  delay(1000);
+  delay(1000); 
 }
